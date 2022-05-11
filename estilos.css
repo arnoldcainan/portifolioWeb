@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #a09038;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img/pexels-alberlan-barros-7311920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+}
+
+.container .nome h1 {
+    font-size: 60px;
+}
+
+.container .nome h5 {
+    font-size: 25px;
+}
