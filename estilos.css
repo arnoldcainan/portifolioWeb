@@ -10,7 +10,6 @@ ul{
     list-style: none;
     font-style: italic;
     font-weight: 700;
-
 }
 
 a {
@@ -18,13 +17,21 @@ a {
 }
 
 body {
-    background-image: url(./img/pexels-alberlan-barros-7311920.jpg);
+    background-image: url(./img/pexels546819.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
 }
 .container {
     text-align: center;
+}
+.container img{
+    width: 600px;
+    height: 600px;
+    display: block;
+    border-radius: 50%;
+    height: fit-content;
+    margin: 0 auto;
 }
 
 .container .nome h1 {
@@ -33,4 +40,15 @@ body {
 
 .container .nome h5 {
     font-size: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 50px;
+    margin: 0 auto;
+    display: inline;
 }
