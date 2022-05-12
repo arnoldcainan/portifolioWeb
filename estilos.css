@@ -5,22 +5,45 @@
     color: #a09038;
     font-family: 'Poppins', sans-serif;
 }
-
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
 ul{
+    
     list-style: none;
     font-style: italic;
     font-weight: 700;
+    font-size: 1.5rem;
+    text-align: end;    
+}
+li {
+    display: inline;
+    padding: 7px;
+    align-content: center;       
 }
 
 a {
     text-decoration: none;
 }
+header ul li a{
+    transition: 400ms;
+    
+}
+
+header ul li a:hover{
+    color: #9c551b;
+    text-decoration: underline;    
+}
 
 body {
-    background-image: url(./img/pexels546819.jpg);
+    background-image: url(./img/backgroundtech.jpeg);    
     background-repeat: no-repeat;
     background-position: center center fixed;
-    background-size: cover;
+    background-size: cover;    
+
 }
 .container {
     text-align: center;
@@ -32,6 +55,7 @@ body {
     border-radius: 50%;
     height: fit-content;
     margin: 0 auto;
+    
 }
 
 .container .nome h1 {
@@ -44,11 +68,34 @@ body {
 
 #about p {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .form {
     width: 50px;
     margin: 0 auto;
     display: inline;
+    
+}
+.form input{
+    width: 35%;
+    text-align: center;
+    color: #000;
+    border: none;
+}
+.form button{
+    width: 10%;
+    padding: 5px;
+    background-color: #c0a717;
+    color: #464646;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.form button:hover{
+    background-color: #9c551b;
+    color: #fff;
+    
 }
