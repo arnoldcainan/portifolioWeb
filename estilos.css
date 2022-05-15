@@ -42,15 +42,18 @@ body {
     background-image: url(./img/backgroundtech.jpeg);    
     background-repeat: no-repeat;
     background-position: center center fixed;
-    background-size: cover;    
+    background-size:cover;
+    background-color: #000;
+    
+    
 
 }
 .container {
     text-align: center;
 }
 .container img{
-    width: 600px;
-    height: 600px;
+    width: 400px;    
+    height: 400px;
     display: block;
     border-radius: 50%;
     height: fit-content;
